@@ -1,0 +1,230 @@
+#banner {
+  background-image: url("assets/images/background-header.png");
+  background-size: cover;
+}
+
+#see-more-icon {
+  width: 39px;
+  height: 39px;
+  padding: 7.5px 0;
+  display: none;
+}
+
+#banner {
+  height: 100vh;
+}
+
+.shape-border {
+  width: 0;
+  height: 0;
+  border-top: 50vh solid transparent;
+  border-right: 20vw solid #030f25;
+  border-bottom: 50vh solid transparent;
+}
+
+.video {
+  background-color: #030f25;
+}
+
+@media screen and (min-width: 280px) {
+  #logo-white {
+    width: 75px;
+  }
+
+  h1, .h1 {
+    font-size: 40px;
+  }
+
+  h3, .h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  #logo-white {
+    width: 80px;
+  }
+
+  h1, .h1 {
+    font-size: 45px;
+  }
+
+  h3, .h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  #logo-white {
+    width: 85px;
+  }
+
+  h1, .h1 {
+    font-size: 50px;
+  }
+
+  h3, .h3 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  #logo-white {
+    width: 95px;
+  }
+
+  h1, .h1 {
+    font-size: 60px;
+  }
+
+  h3, .h3 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+  #banner {
+    height: 60vh;
+  }
+
+  .shape-border {
+    border-top: 30vh solid transparent;
+    border-right: 15vw solid #030f25;
+    border-bottom: 30vh solid transparent;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  #see-more {
+    display: none;
+  }
+
+  #see-more-icon {
+    display: block;
+  }
+}
+
+.play {
+  width: 0;
+  height: 0;
+  border-top: 4vw solid transparent;
+  border-left: 8vw solid white;
+  border-bottom: 4vw solid transparent;
+}
+
+button.player {
+  width: 25vw;
+  height: 25vw;
+  margin-left: -4vw;
+}
+
+nav {
+  height: 100px;
+}
+
+.nav-link {
+  font-size: 28px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.section-title {
+  font-size: 64px;
+}
+
+.section-body {
+  font-size: 32px;
+  line-height: 55px;
+}
+
+.line {
+  border-bottom: 5px solid;
+  width: 750px;
+  right: 95px;
+  bottom: -5px;
+}
+
+.comment-exemple {
+  font-size: 18px;
+  margin-top: -25px;
+}
+
+.bg-city {
+  background-image: url("assets/images/background-city.jpg");
+  background-size: cover;
+}
+
+.section-subtitle {
+  font-size: 40px;
+}
+
+.hex-gradient {
+  width: 160px;
+  height: 139px;
+  background-image: url(assets/svg/hex.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hex-gradient-2 {
+  width: 460.4px;
+  height: 400px;
+  background-image: url(assets/svg/hex.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hex-icon {
+  font-size: 68px;
+}
+
+.hex-section {
+  width: 160px;
+}
+
+.carousel {
+  height: 650px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  align-items: flex-end;
+  bottom: 50px;
+}
+
+.carousel-item {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.carousel {
+  background-color: #efefef;
+}
+
+.next {
+  width: 0;
+  height: 0;
+  border-top: 28px solid transparent;
+  border-bottom: 28px solid transparent;
+  border-left: 28px solid #091b3d;
+}
+
+.prev {
+  width: 0;
+  height: 0;
+  border-top: 28px solid transparent;
+  border-bottom: 28px solid transparent;
+  border-right: 28px solid #091b3d;
+}
+
+footer {
+  background-color: #091b3d;
+  color: white;
+}

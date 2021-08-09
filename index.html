@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="scroll-indicator.css" />
+
+    <title>Facilitat Tecnologia – Desempenho no pós-obra</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header id="banner" class="row">
+        <div class="offset-1 col text-white mt-4 mt-sm-5 d-flex flex-column">
+          <img
+            class="mb-auto"
+            id="logo-white"
+            src="assets/images/white-logo.png"
+            alt="Logotipo branco"
+          />
+          <h1 class="my-auto">
+            Inovação Digital <strong>Facilitando a sua Gestão Pós-Obra</strong>
+          </h1>
+          <h3 class="w-md-75 lh-base my-auto">
+            Conheça a Facilitat, a Startup Pernambucana com a melhor solução
+            para a manutenção de garantias do seu edifício.
+          </h3>
+          <div class="my-auto">
+            <button
+              id="see-more"
+              type="button"
+              class="
+                btn btn-primary
+                rounded-pill
+                px-4 px-sm-5
+                font-weight-bold
+                py-2
+                d-md-none
+                mb-2 mb-sm-3 mb-md-0
+              "
+            >
+              <p class="h3 m-0">Veja mais</p>
+            </button>
+            <div class="d-flex">
+              <button id="see-more-icon" type="button" class="btn btn-primary rounded-circle me-2">
+                <ion-icon class="fs-3" name="play-circle-outline"></ion-icon>
+              </button>
+              <button
+                type="button"
+                class="
+                  btn btn-primary
+                  rounded-pill
+                  px-4 px-sm-5
+                  font-weight-bold
+                  py-2
+                "
+              >
+                <p class="h3 m-0">Solicite Orçamento</p>
+              </button>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center pe-4 my-auto">
+            <div class="mouse-icon">
+              <span class="mouse-wheel"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col d-none d-md-block">
+          <div class="row h-100 d-flex">
+            <div class="shape-border flex-shrink-1"></div>
+            <div class="w-auto video flex-grow-1 d-flex align-items-center">
+              <button  
+                type="button"
+                class="
+                  bg-transparent
+                  border border-4 border-white
+                  rounded-circle
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  player
+                "
+              >
+                <div class="play"></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light row">
+        <div class="container-fluid col offset-1">
+          <a class="navbar-brand" href="#"
+            ><img height="80" src="assets/images/logo.png" alt="Logotipo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item me-5">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Sobre</a
+                >
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Funcionalidades</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Serviços</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Números</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main class="row mt-5 pt-5">
+        <section class="col-9 mx-auto my-5 py-5">
+          <header class="mb-5">
+            <p class="section-title">
+              <i>Facilitar</i>
+              <strong
+                >a Gestão Pós-Obra é garantir a longevidade do seu
+                imóvel</strong
+              >
+            </p>
+          </header>
+          <p class="section-body">
+            Para síndicos e condomínios, manter o edifício em manutenção
+            constante pode ser esquecido, isso acaba no momento em que voce
+            adentra em nossa plataforma. Em qualquer dispositivo com conexão a
+            internet voce consegue acessar sua conta e ter acesso a todas as
+            informações relevantes do seu imóvel.
+          </p>
+        </section>
+        <span>&nbsp;</span>
+        <span>&nbsp;</span>
+        <section class="col-9 mx-auto my-5 py-5">
+          <header class="mb-5 position-relative">
+            <p class="section-title text-center">
+              <strong>O que você vai</strong><br />
+              <strong>encontrar na nossa PLATAFORMA:</strong>
+            </p>
+            <div class="line position-absolute"></div>
+          </header>
+          <p>TODO</p>
+        </section>
+        <span>&nbsp;</span>
+        <span>&nbsp;</span>
+        <section class="col-9 mx-auto my-5 py-5">
+          <section class="d-flex mb-5">
+            <img
+              class="me-5"
+              src="assets/images/qr.png"
+              alt="Apresentação de QR Code"
+            />
+            <div>
+              <header>
+                <p class="section-title">
+                  <i>Facilidade</i>
+                  <strong>no dia-a-dia através de QR Codes</strong>
+                </p>
+              </header>
+              <p class="section-body">
+                Em nossa plataforma, você contará com QR Codes de direcionamento
+                para todas as situações, chega de links extensos, o futuro é
+                descomplicado.
+              </p>
+            </div>
+          </section>
+          <section class="d-flex pt-5 justify-content-center">
+            <div class="me-4">
+              <img
+                src="assets/images/qr-exemple-1.png"
+                alt="Exemplo de QR Code 1"
+              />
+              <div
+                style="width: 214px"
+                class="bg-white comment-exemple position-relative"
+              >
+                Para o melhor uso das áreas em comum de seu condomínio
+              </div>
+            </div>
+            <div class="me-4">
+              <img
+                src="assets/images/qr-exemple-2.png"
+                alt="Exemplo de QR Code 2"
+              />
+              <div
+                style="width: 180px"
+                class="bg-white comment-exemple position-relative"
+              >
+                Cabe em qualquer formato
+              </div>
+            </div>
+            <div class="me-4">
+              <img
+                src="assets/images/qr-exemple-3.png"
+                alt="Exemplo de QR Code 3"
+              />
+              <div
+                style="width: 160px"
+                class="bg-white comment-exemple position-relative"
+              >
+                Prevenindo erros com seu manual
+              </div>
+            </div>
+          </section>
+        </section>
+        <span>&nbsp;</span>
+        <span>&nbsp;</span>
+        <div class="bg-city">
+          <section class="col-9 mx-auto my-5 py-5 text-white">
+            <header class="mb-5 position-relative">
+              <p class="section-title text-center">
+                <strong>Fique por dentro dos nossos serviços</strong>
+              </p>
+            </header>
+            <section class="pt-5">
+              <div class="d-flex mb-5">
+                <img
+                  class="me-2"
+                  src="assets/images/service-1.png"
+                  alt="Serviço 1"
+                />
+                <header class="mt-auto">
+                  <p class="section-title m-0">
+                    <strong>Plataforma Facilitat</strong>
+                  </p>
+                  <p class="section-subtitle m-0">
+                    <strong
+                      >Uma ferramenta para <i>facilitar</i> a sua gestão</strong
+                    >
+                  </p>
+                </header>
+              </div>
+              <p class="h1" style="line-height: 60px">
+                Nossa plataforma é multitelas, isso quer dizer que através de
+                tablet, smartphone ou computador seu acesso à nossa plataforma
+                está garantido! Todas as nossas funcionalidades disponíveis
+                através do seu toque e na sua tela preferida.
+              </p>
+            </section>
+            <section class="pt-5">
+              <div class="d-flex mb-5">
+                <img
+                  class="me-2"
+                  src="assets/images/service-2.png"
+                  alt="Serviço 2"
+                />
+                <header class="mt-auto">
+                  <p class="section-title m-0">
+                    <strong>Manual Facilitat</strong>
+                  </p>
+                  <p class="section-subtitle m-0">
+                    <strong>Ter um Manual <i>facilita</i> a sua vida</strong>
+                  </p>
+                </header>
+              </div>
+              <p class="h1" style="line-height: 60px">
+                Em apenas um documento, reunimos absolutamente tudo o que você
+                precisa sobre seu edifício.<br />
+                Manuais de Uso, Operação e Manutenção Predial personalizados e
+                elaborados com base nas NBR 5674, 14037 e 15575, e com a
+                utilização de QR-Codes para melhor acesso às informações!
+              </p>
+            </section>
+            <div class="d-flex justify-content-center my-5 pt-5">
+              <button
+                type="button"
+                class="btn btn-primary rounded-pill px-5 font-weight-bold py-3"
+              >
+                <p class="h2 m-0">Conhecer Manual</p>
+              </button>
+            </div>
+          </section>
+        </div>
+        <section class="col-9 mx-auto my-5 py-5">
+          <header>
+            <p class="section-title">
+              <strong> Você não precisa acreditar em nós...</strong><br />
+              <strong> Deixe os números falarem </strong>
+            </p>
+          </header>
+          <section class="d-flex justify-content-between">
+            <div class="hex-section">
+              <div class="hex-gradient"><ion-icon class="hex-icon" name="business-outline"></ion-icon></div>
+              <div class="d-flex justify-content-center flex-column text-center">
+                <h1>
+                  41
+                </h1>
+                <p>
+                  Condomínios Cadastrados
+                </p>
+              </div>
+            </div>
+            <div class="hex-section">
+              <div class="hex-gradient"><ion-icon class="hex-icon" name="construct-outline"></ion-icon></div>
+              <div class="d-flex justify-content-center flex-column text-center">
+                <h1>
+                  100+
+                </h1>
+                <p>
+                  Planos de Manutenção
+                </p>
+              </div>
+            </div>
+            <div class="hex-section">
+              <div class="hex-gradient"><ion-icon class="hex-icon" name="person-circle-outline"></ion-icon></div>
+              <div class="d-flex justify-content-center flex-column text-center">
+                <h1>
+                  1.000+
+                </h1>
+                <p>
+                  Usuários Cadastrados
+                </p>
+              </div>
+            </div>
+            <div class="hex-section">
+              <div class="hex-gradient"><ion-icon class="hex-icon" name="ribbon-outline"></ion-icon></div>
+              <div class="d-flex justify-content-center flex-column text-center">
+                <h1>
+                  15.000+
+                </h1>
+                <p>
+                  Garantias Analisadas
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <p class="section-title text-center">
+              <strong> Você também pode</strong><br />
+              <strong> conferir o que falam de nós </strong>
+            </p>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-block">
+                    Conteúdo 1
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block">
+                    Conteúdo 2
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block">
+                    Conteúdo N
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="prev" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="next" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+        </section>
+      </main>
+      <footer class="row">
+        <div class="col-9 mx-auto d-flex">
+          <div>
+            <p>Rua Serra da canastra, 391, Cordeiro, CEP 50640-310, <br />
+              Recife-PE, Brasil
+            </p>
+            <p>+55 (81) 99227-3759 | contato@facilitat.com.br</p>
+            <p>c 2018 Facilitat Tecnologia</p>
+          </div>
+          <div>
+            
+          </div>
+        </div>
+      </footer> -->
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
