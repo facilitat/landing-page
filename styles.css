@@ -103,6 +103,24 @@
     display: block;
   }
 }
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  /* your css rules for ipad portrait */
+  #banner {
+    height: 60vh;
+  }
+
+  .shape-border {
+    border-top: 30vh solid transparent;
+    border-right: 15vw solid #030f25;
+    border-bottom: 30vh solid transparent;
+  }
+  #titulo{
+    font-size: xx-large;
+  }
+  #subtitulo{
+    font-size: larger;
+  }
+}
 
 .play {
   width: 0;
