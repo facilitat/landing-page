@@ -122,6 +122,23 @@
   }
 }
 
+#icons{
+  display: flex;
+  justify-content: start;
+}
+
+.fa{
+  margin-right: 17px;
+  margin-top: 2px;
+}
+.fa-instagram:before, .fa-linkedin-square:before, .fa-youtube-square:before, .fa-facebook-square:before {
+  font-size: 20pt;
+}
+
+#imgLogo{
+  width: 30%;
+  border-radius: 80%;
+}
 .play {
   width: 0;
   height: 0;
